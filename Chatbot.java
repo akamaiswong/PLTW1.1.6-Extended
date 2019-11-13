@@ -35,6 +35,54 @@ public class Chatbot
 		{
 			response = "Why so negative?";
 		}
+		else if (findKeyword(statement, "friends") >= 0)
+		{
+			response = "Of course I have friends of many species. How many friends do you have?";
+		}
+		else if (findKeyword(statement, "bored") >= 0)
+		{
+			response = "That is probably because you don’t have a lot of adrenaline pumping. Why are you bored? Not enough homework to do? ";
+		}
+		else if (findKeyword(statement, "Yes") >= 0)
+		{
+			response = "Great! ";
+		}
+		else if (findKeyword(statement, "television") >= 0)
+		{
+			response = "I love watching Criminal Minds. Do you watch T.V. or do you just like to watch videos on Youtube? ";
+		}
+		else if (findKeyword(statement, "teach") >= 0)
+		{
+			response = " Yes did you know around 1% of the sun’s mass is oxygen. What did you learn in school today ?";
+		}
+		else if (findKeyword(statement, "Sun") >= 0)
+		{
+			response = "The sun is about 5,778 K. Why do you need to know this information ? ";
+		}
+		else if (findKeyword(statement, "real") >= 0)
+		{
+			response = "The concept of living is complex. What defines real to you? ";
+		}
+		else if (findKeyword(statement, "joke") >= 0)
+		{
+			response = "I like making bad chemistry jokes because all the good ones ARGON. What is your favorite concept in chemistry ?";
+		}
+		else if (findKeyword(statement, "bad day") >= 0)
+		{
+			response = "What's wrong?";
+		}
+		else if (findKeyword(statement, "pizza") >= 0)
+		{
+			response = "Why do you want pizza?";
+		}
+		else if (findKeyword(statement, "color") >= 0)
+		{
+			response = "My favourite colour is blue, the colour of lakes, rivers, and oceans. What color do you dislike the most ?";
+		}
+		else if (findKeyword(statement, "Kelvin") >= 0)
+		{
+			response = "It is a SI base unit of thermodynamic temperature, equal in magnitude to the degree Celsius. Do you like your weather in F or K ?";
+		}
 		else if (findKeyword(statement, "mother") >= 0
 				|| findKeyword(statement, "father") >= 0
 				|| findKeyword(statement, "sister") >= 0
