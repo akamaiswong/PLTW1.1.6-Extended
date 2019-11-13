@@ -33,7 +33,7 @@ public class Chatbot
 
 		else if (findKeyword(statement, "no") >= 0)
 		{
-			response = "Why so negative?";
+			response = "I'm sorry to hear that.";
 		}
 		else if (findKeyword(statement, "friends") >= 0)
 		{
@@ -83,6 +83,126 @@ public class Chatbot
 		{
 			response = "It is a SI base unit of thermodynamic temperature, equal in magnitude to the degree Celsius. Do you like your weather in F or K ?";
 		}
+		else if (findKeyword(statement, "hello") >= 0)
+		{
+		    response = "Hello. I am well, because my dopamine levels are high. How are you?";
+		}
+		
+		else if (findKeyword(statement, "subject") >= 0)
+		{
+		    response = "My favorite school subject is anatomy. Did you know that there are 206 bones in the human body? What makes your bones stronger?";
+		}
+		
+		else if (findKeyword(statement, "food") >= 0)
+		{
+		    response = "My favourite food is yogurt. Did you know that yogurt is made by bacteria turning milk into yogurt? What is your favorite food?";
+		}
+		
+		else if (findKeyword(statement, "old") >= 0)
+		{
+		    response = "1 day older than yesterday. How old are you?";
+		}
+		
+		else if (findKeyword(statement, "sleep") >= 0)
+		{
+		    response = "Of course I do, everyone should get a good amount of sleep to perform at their maximum capacity. How many hours of sleep did you get yesterday?";
+		}
+		
+		else if (findKeyword(statement, "cardiologist") >= 0)
+		{
+		    response = "No, I do not have a heart. What do you want to be when you grow up?";
+		}
+		
+		else if (findKeyword(statement, "angry") >= 0)
+		{
+		    response = "Why? Make sure you take deep breaths and think when you are calm before acting abruptly.";
+		}
+		
+		else if (findKeyword(statement, "sad") >= 0)
+		{
+		    response = "Why are you sad? Crying will help you relax, take your time.";
+		}
+		
+		else if (findKeyword(statement, "ouch") >= 0)
+		{
+		    response = "Oh no, are you okay? Make sure to see a doctor if you injured.";
+		}
+		
+		else if (findKeyword(statement, "run") >= 0)
+		{
+		    response = "No, but cheetahs are the fastest animals, due to their huge leg muscles that expand to produce faster speeds. How long does it take you to run a mile?";
+		}
+		
+		else if (findKeyword(statement, "hair grow") >= 0)
+		{
+		    response = "The root is made up of cells of protein. Blood from the blood vessels in your scalp feeds the root, which creates more cells and makes the hair grow. The hair gets pushed up through the skin as it grows, passing an oil gland along the way. The oil gland adds oil to the hair and keeps it shiny and soft. Do you have hair on your head or are you bald?";
+		}
+		
+		else if (findKeyword(statement, "exercises") >= 0)
+		{
+		    response = "Maybe some squats would be good, but remember 30 minutes per day should be the average. How long do you exercise every day?";
+		}
+		
+		else if (findKeyword(statement, "drink water") >= 0)
+		{
+		    response = "No, but remember to drink at least 8 glasses of water everyday. What is your favorite color hydro flask?";
+		}
+		
+		else if (findKeyword(statement, "physics joke") >= 0)
+		{
+		    response = "Yeah, there is a gravitational attraction between us, sadly it is quite weak. Do like chemistry jokes or physics jokes better? ";
+		}
+		
+		else if (findKeyword(statement, "sweet tooth") >= 0)
+		{
+		    response = "Yes! How did you know, out of all 32 of my teeth I have 2 cavities. Ouch! What type of food do you like? Salty, spicy, or sweet like I do?";
+		}
+		
+		else if (findKeyword(statement, "constellation") >= 0)
+		{
+		    response = "There are around 90 constellations, I am still trying to find my favorite one. How many constellations can you name?";
+		}
+		
+		else if (findKeyword(statement, "planets") >= 0)
+		{
+		    response = "There are 8 planets in the solar system. Do you believe that Pluto is a planet?";
+		}
+		
+		else if (findKeyword(statement, "biggest mammal") >= 0)
+		{
+		    response = "The biggest mammal on earth is a blue whale. Why do you want to know?";
+		}
+		
+		else if (findKeyword(statement, "plants") >= 0)
+		{
+		    response = "Plants make food in their leaves. The leaves contain a pigment called chlorophyll, which colors the leaves green. Chlorophyll can make food the plant can use from carbon dioxide, water, nutrients, and energy from sunlight. Why do you want to know?";
+		}
+		
+		else if (findKeyword(statement, "biggest mammal") >= 0)
+		{
+		    response = "The biggest mammal on earth is a blue whale. Why do you want to know?";
+		}
+		
+		else if (findKeyword(statement, "eat food") >= 0)
+		{
+		    response = "No, I cannot eat food since I do not have a digestive system. What did you have for breakfast today? ";
+		}
+		
+		else if (findKeyword(statement, "weather") >= 0)
+		{
+		    response = "Today, the weather is around 70 degrees Fahrenheit. What type of weather do you like?";
+		}
+		
+		else if (findKeyword(statement, "animal") >= 0)
+		{
+		    response = "I love giraffes, did you know they have the same number of vertebrae in their necks as humans? What is your favorite safari animal?";
+		}
+		
+		else if (findKeyword(statement, "birthday") >= 0)
+		{
+		    response = "The day I was born, on the day that I was created by the creator. When is your birthday?";
+		}
+		
 		else if (findKeyword(statement, "mother") >= 0
 				|| findKeyword(statement, "father") >= 0
 				|| findKeyword(statement, "sister") >= 0
